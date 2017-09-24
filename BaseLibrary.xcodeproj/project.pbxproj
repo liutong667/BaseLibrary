@@ -13,6 +13,7 @@
 		A877D8481F779087002E6BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A877D8461F779087002E6BA4 /* LaunchScreen.storyboard */; };
 		A877D8611F7798B6002E6BA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A877D8541F7790EE002E6BA4 /* main.m */; };
 		A877D8621F77990C002E6BA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A877D8531F7790EE002E6BA4 /* AppDelegate.m */; };
+		A877D8911F77AC79002E6BA4 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A877D8901F77AC79002E6BA4 /* testViewController.m */; };
 		E07460660549CDDEFAD7EFEE /* libPods-BaseLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5559C53453AF89DBF3B97A /* libPods-BaseLibrary.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,8 @@
 		A877D85D1F7792A1002E6BA4 /* lt_macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lt_macros.h; sourceTree = "<group>"; };
 		A877D85E1F77932A002E6BA4 /* lt_ui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lt_ui.h; sourceTree = "<group>"; };
 		A877D8851F779DBE002E6BA4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A877D88F1F77AC79002E6BA4 /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		A877D8901F77AC79002E6BA4 /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		AD5559C53453AF89DBF3B97A /* libPods-BaseLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D0C5354C0FB62EFC4E4E9F /* Pods-BaseLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseLibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseLibrary/Pods-BaseLibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +80,7 @@
 		A877D83A1F779087002E6BA4 /* BaseLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				A877D88E1F77AC6D002E6BA4 /* test */,
 				A877D8551F779178002E6BA4 /* Library */,
 				A877D8511F7790EE002E6BA4 /* main */,
 				A877D88A1F77A469002E6BA4 /* business */,
@@ -148,6 +152,15 @@
 			children = (
 			);
 			path = business;
+			sourceTree = "<group>";
+		};
+		A877D88E1F77AC6D002E6BA4 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				A877D88F1F77AC79002E6BA4 /* testViewController.h */,
+				A877D8901F77AC79002E6BA4 /* testViewController.m */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 		ADC9503331F88A4F6106449E /* Pods */ = {
@@ -283,6 +296,7 @@
 			files = (
 				A877D8621F77990C002E6BA4 /* AppDelegate.m in Sources */,
 				A877D8401F779087002E6BA4 /* ViewController.m in Sources */,
+				A877D8911F77AC79002E6BA4 /* testViewController.m in Sources */,
 				A877D8611F7798B6002E6BA4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
