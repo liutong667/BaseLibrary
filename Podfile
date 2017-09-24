@@ -18,7 +18,6 @@ target ’BaseLibrary’ do
 #    pod 'FDFullscreenPopGesture',   '~> 1.1'
 	
     pod 'Masonry', '~> 1.0.2'
-    pod 'MJRefresh', '~> 3.1.12'
 end
 
 
