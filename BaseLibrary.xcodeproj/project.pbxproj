@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A877D8401F779087002E6BA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A877D83F1F779087002E6BA4 /* ViewController.m */; };
+		A8190EF11FA0917600BA2C49 /* NSDictionary+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = A8190EF01FA0917600BA2C49 /* NSDictionary+Ex.m */; };
+		A8190EF41FA0923600BA2C49 /* NSObject+SafeString.m in Sources */ = {isa = PBXBuildFile; fileRef = A8190EF31FA0923600BA2C49 /* NSObject+SafeString.m */; };
 		A877D8431F779087002E6BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A877D8411F779087002E6BA4 /* Main.storyboard */; };
 		A877D8451F779087002E6BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A877D8441F779087002E6BA4 /* Assets.xcassets */; };
 		A877D8481F779087002E6BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A877D8461F779087002E6BA4 /* LaunchScreen.storyboard */; };
@@ -17,11 +18,26 @@
 		E07460660549CDDEFAD7EFEE /* libPods-BaseLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5559C53453AF89DBF3B97A /* libPods-BaseLibrary.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A8190EE21FA090B900BA2C49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		699FBD8DDD23BFD3AA21140D /* Pods-BaseLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseLibrary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseLibrary/Pods-BaseLibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		A8190EE41FA090B900BA2C49 /* CommandTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8190EEF1FA0917600BA2C49 /* NSDictionary+Ex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Ex.h"; sourceTree = "<group>"; };
+		A8190EF01FA0917600BA2C49 /* NSDictionary+Ex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Ex.m"; sourceTree = "<group>"; };
+		A8190EF21FA0923600BA2C49 /* NSObject+SafeString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeString.h"; sourceTree = "<group>"; };
+		A8190EF31FA0923600BA2C49 /* NSObject+SafeString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeString.m"; sourceTree = "<group>"; };
 		A877D8381F779087002E6BA4 /* BaseLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A877D83E1F779087002E6BA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A877D83F1F779087002E6BA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A877D8421F779087002E6BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A877D8441F779087002E6BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A877D8471F779087002E6BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +56,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A8190EE11FA090B900BA2C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A877D8351F779087002E6BA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,6 +82,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A8190EEB1FA090EC00BA2C49 /* lt_ex */ = {
+			isa = PBXGroup;
+			children = (
+				A8190EEF1FA0917600BA2C49 /* NSDictionary+Ex.h */,
+				A8190EF01FA0917600BA2C49 /* NSDictionary+Ex.m */,
+				A8190EF21FA0923600BA2C49 /* NSObject+SafeString.h */,
+				A8190EF31FA0923600BA2C49 /* NSObject+SafeString.m */,
+			);
+			path = lt_ex;
+			sourceTree = "<group>";
+		};
 		A877D82F1F779087002E6BA4 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				A877D8381F779087002E6BA4 /* BaseLibrary.app */,
+				A8190EE41FA090B900BA2C49 /* CommandTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,8 +118,6 @@
 				A877D8551F779178002E6BA4 /* Library */,
 				A877D8511F7790EE002E6BA4 /* main */,
 				A877D8921F77AE7F002E6BA4 /* business */,
-				A877D83E1F779087002E6BA4 /* ViewController.h */,
-				A877D83F1F779087002E6BA4 /* ViewController.m */,
 				A877D8411F779087002E6BA4 /* Main.storyboard */,
 				A877D8441F779087002E6BA4 /* Assets.xcassets */,
 				A877D8461F779087002E6BA4 /* LaunchScreen.storyboard */,
@@ -115,19 +148,12 @@
 		A877D8561F779178002E6BA4 /* lt_common_lib */ = {
 			isa = PBXGroup;
 			children = (
+				A8190EEB1FA090EC00BA2C49 /* lt_ex */,
 				A877D85C1F77925C002E6BA4 /* lt_common_lib.h */,
-				A877D8571F779178002E6BA4 /* lt_controller */,
 				A877D8581F779178002E6BA4 /* lt_macros */,
 				A877D8591F779178002E6BA4 /* lt_ui */,
 			);
 			path = lt_common_lib;
-			sourceTree = "<group>";
-		};
-		A877D8571F779178002E6BA4 /* lt_controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = lt_controller;
 			sourceTree = "<group>";
 		};
 		A877D8581F779178002E6BA4 /* lt_macros */ = {
@@ -167,6 +193,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A8190EE31FA090B900BA2C49 /* CommandTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8190EEA1FA090B900BA2C49 /* Build configuration list for PBXNativeTarget "CommandTest" */;
+			buildPhases = (
+				A8190EE01FA090B900BA2C49 /* Sources */,
+				A8190EE11FA090B900BA2C49 /* Frameworks */,
+				A8190EE21FA090B900BA2C49 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandTest;
+			productName = CommandTest;
+			productReference = A8190EE41FA090B900BA2C49 /* CommandTest */;
+			productType = "com.apple.product-type.tool";
+		};
 		A877D8371F779087002E6BA4 /* BaseLibrary */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A877D84E1F779087002E6BA4 /* Build configuration list for PBXNativeTarget "BaseLibrary" */;
@@ -196,6 +239,10 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = liutong;
 				TargetAttributes = {
+					A8190EE31FA090B900BA2C49 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
 					A877D8371F779087002E6BA4 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -216,6 +263,7 @@
 			projectRoot = "";
 			targets = (
 				A877D8371F779087002E6BA4 /* BaseLibrary */,
+				A8190EE31FA090B900BA2C49 /* CommandTest */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +330,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A8190EE01FA090B900BA2C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A877D8341F779087002E6BA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A877D8621F77990C002E6BA4 /* AppDelegate.m in Sources */,
-				A877D8401F779087002E6BA4 /* ViewController.m in Sources */,
+				A8190EF41FA0923600BA2C49 /* NSObject+SafeString.m in Sources */,
+				A8190EF11FA0917600BA2C49 /* NSDictionary+Ex.m in Sources */,
 				A877D8951F77AEEF002E6BA4 /* testViewController.m in Sources */,
 				A877D8611F7798B6002E6BA4 /* main.m in Sources */,
 			);
@@ -315,6 +371,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A8190EE81FA090B900BA2C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L8859JS3T;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A8190EE91FA090B900BA2C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L8859JS3T;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		A877D84C1F779087002E6BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -456,6 +536,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A8190EEA1FA090B900BA2C49 /* Build configuration list for PBXNativeTarget "CommandTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8190EE81FA090B900BA2C49 /* Debug */,
+				A8190EE91FA090B900BA2C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A877D8331F779087002E6BA4 /* Build configuration list for PBXProject "BaseLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
