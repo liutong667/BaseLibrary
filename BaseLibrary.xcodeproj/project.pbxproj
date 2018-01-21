@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A8190EF11FA0917600BA2C49 /* NSDictionary+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = A8190EF01FA0917600BA2C49 /* NSDictionary+Ex.m */; };
-		A8190EF41FA0923600BA2C49 /* NSObject+SafeString.m in Sources */ = {isa = PBXBuildFile; fileRef = A8190EF31FA0923600BA2C49 /* NSObject+SafeString.m */; };
 		A877D8431F779087002E6BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A877D8411F779087002E6BA4 /* Main.storyboard */; };
 		A877D8451F779087002E6BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A877D8441F779087002E6BA4 /* Assets.xcassets */; };
 		A877D8481F779087002E6BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A877D8461F779087002E6BA4 /* LaunchScreen.storyboard */; };
 		A877D8611F7798B6002E6BA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A877D8541F7790EE002E6BA4 /* main.m */; };
 		A877D8621F77990C002E6BA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A877D8531F7790EE002E6BA4 /* AppDelegate.m */; };
 		A877D8951F77AEEF002E6BA4 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A877D8941F77AEEF002E6BA4 /* testViewController.m */; };
+		A884BD452014928500732E15 /* NSDictionary+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = A884BD422014928500732E15 /* NSDictionary+Ex.m */; };
+		A884BD462014928500732E15 /* NSObject+SafeString.m in Sources */ = {isa = PBXBuildFile; fileRef = A884BD442014928500732E15 /* NSObject+SafeString.m */; };
+		A884BD502014944500732E15 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A884BD4F2014944500732E15 /* UIColor+Hex.m */; };
 		E07460660549CDDEFAD7EFEE /* libPods-BaseLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5559C53453AF89DBF3B97A /* libPods-BaseLibrary.a */; };
 /* End PBXBuildFile section */
 
@@ -33,10 +34,6 @@
 /* Begin PBXFileReference section */
 		699FBD8DDD23BFD3AA21140D /* Pods-BaseLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseLibrary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseLibrary/Pods-BaseLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		A8190EE41FA090B900BA2C49 /* CommandTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8190EEF1FA0917600BA2C49 /* NSDictionary+Ex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Ex.h"; sourceTree = "<group>"; };
-		A8190EF01FA0917600BA2C49 /* NSDictionary+Ex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Ex.m"; sourceTree = "<group>"; };
-		A8190EF21FA0923600BA2C49 /* NSObject+SafeString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeString.h"; sourceTree = "<group>"; };
-		A8190EF31FA0923600BA2C49 /* NSObject+SafeString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeString.m"; sourceTree = "<group>"; };
 		A877D8381F779087002E6BA4 /* BaseLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A877D8421F779087002E6BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A877D8441F779087002E6BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,12 +42,19 @@
 		A877D8521F7790EE002E6BA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A877D8531F7790EE002E6BA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A877D8541F7790EE002E6BA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A877D85C1F77925C002E6BA4 /* lt_common_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lt_common_lib.h; sourceTree = "<group>"; };
-		A877D85D1F7792A1002E6BA4 /* lt_macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lt_macros.h; sourceTree = "<group>"; };
-		A877D85E1F77932A002E6BA4 /* lt_ui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lt_ui.h; sourceTree = "<group>"; };
 		A877D8851F779DBE002E6BA4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A877D8931F77AEEF002E6BA4 /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
 		A877D8941F77AEEF002E6BA4 /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		A884BD3E2014922100732E15 /* lt_common_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lt_common_lib.h; sourceTree = "<group>"; };
+		A884BD412014928500732E15 /* NSDictionary+Ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Ex.h"; sourceTree = "<group>"; };
+		A884BD422014928500732E15 /* NSDictionary+Ex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Ex.m"; sourceTree = "<group>"; };
+		A884BD432014928500732E15 /* NSObject+SafeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeString.h"; sourceTree = "<group>"; };
+		A884BD442014928500732E15 /* NSObject+SafeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeString.m"; sourceTree = "<group>"; };
+		A884BD482014929100732E15 /* lt_macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lt_macros.h; sourceTree = "<group>"; };
+		A884BD49201492F900732E15 /* lt_ex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lt_ex.h; sourceTree = "<group>"; };
+		A884BD4E2014944500732E15 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		A884BD4F2014944500732E15 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		A884BD522014957900732E15 /* lt_constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lt_constants.h; sourceTree = "<group>"; };
 		AD5559C53453AF89DBF3B97A /* libPods-BaseLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D0C5354C0FB62EFC4E4E9F /* Pods-BaseLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseLibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseLibrary/Pods-BaseLibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,17 +86,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A8190EEB1FA090EC00BA2C49 /* lt_ex */ = {
-			isa = PBXGroup;
-			children = (
-				A8190EEF1FA0917600BA2C49 /* NSDictionary+Ex.h */,
-				A8190EF01FA0917600BA2C49 /* NSDictionary+Ex.m */,
-				A8190EF21FA0923600BA2C49 /* NSObject+SafeString.h */,
-				A8190EF31FA0923600BA2C49 /* NSObject+SafeString.m */,
-			);
-			path = lt_ex;
-			sourceTree = "<group>";
-		};
 		A877D82F1F779087002E6BA4 = {
 			isa = PBXGroup;
 			children = (
@@ -115,13 +108,10 @@
 		A877D83A1F779087002E6BA4 /* BaseLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				A877D8551F779178002E6BA4 /* Library */,
+				A877D8551F779178002E6BA4 /* base */,
 				A877D8511F7790EE002E6BA4 /* main */,
-				A877D8921F77AE7F002E6BA4 /* business */,
-				A877D8411F779087002E6BA4 /* Main.storyboard */,
-				A877D8441F779087002E6BA4 /* Assets.xcassets */,
-				A877D8461F779087002E6BA4 /* LaunchScreen.storyboard */,
-				A877D8491F779087002E6BA4 /* Info.plist */,
+				A877D8921F77AE7F002E6BA4 /* test */,
+				A884BD3D201491C100732E15 /* other */,
 			);
 			path = BaseLibrary;
 			sourceTree = "<group>";
@@ -137,49 +127,59 @@
 			path = main;
 			sourceTree = "<group>";
 		};
-		A877D8551F779178002E6BA4 /* Library */ = {
+		A877D8551F779178002E6BA4 /* base */ = {
 			isa = PBXGroup;
 			children = (
-				A877D8561F779178002E6BA4 /* lt_common_lib */,
+				A884BD3E2014922100732E15 /* lt_common_lib.h */,
+				A884BD472014929100732E15 /* lt_macros */,
+				A884BD402014928500732E15 /* lt_ex */,
 			);
-			path = Library;
+			path = base;
 			sourceTree = "<group>";
 		};
-		A877D8561F779178002E6BA4 /* lt_common_lib */ = {
-			isa = PBXGroup;
-			children = (
-				A8190EEB1FA090EC00BA2C49 /* lt_ex */,
-				A877D85C1F77925C002E6BA4 /* lt_common_lib.h */,
-				A877D8581F779178002E6BA4 /* lt_macros */,
-				A877D8591F779178002E6BA4 /* lt_ui */,
-			);
-			path = lt_common_lib;
-			sourceTree = "<group>";
-		};
-		A877D8581F779178002E6BA4 /* lt_macros */ = {
-			isa = PBXGroup;
-			children = (
-				A877D85D1F7792A1002E6BA4 /* lt_macros.h */,
-			);
-			path = lt_macros;
-			sourceTree = "<group>";
-		};
-		A877D8591F779178002E6BA4 /* lt_ui */ = {
-			isa = PBXGroup;
-			children = (
-				A877D85E1F77932A002E6BA4 /* lt_ui.h */,
-			);
-			path = lt_ui;
-			sourceTree = "<group>";
-		};
-		A877D8921F77AE7F002E6BA4 /* business */ = {
+		A877D8921F77AE7F002E6BA4 /* test */ = {
 			isa = PBXGroup;
 			children = (
 				A877D8931F77AEEF002E6BA4 /* testViewController.h */,
 				A877D8941F77AEEF002E6BA4 /* testViewController.m */,
 			);
-			path = business;
+			path = test;
 			sourceTree = "<group>";
+		};
+		A884BD3D201491C100732E15 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				A877D8411F779087002E6BA4 /* Main.storyboard */,
+				A877D8441F779087002E6BA4 /* Assets.xcassets */,
+				A877D8461F779087002E6BA4 /* LaunchScreen.storyboard */,
+				A877D8491F779087002E6BA4 /* Info.plist */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		A884BD402014928500732E15 /* lt_ex */ = {
+			isa = PBXGroup;
+			children = (
+				A884BD412014928500732E15 /* NSDictionary+Ex.h */,
+				A884BD422014928500732E15 /* NSDictionary+Ex.m */,
+				A884BD432014928500732E15 /* NSObject+SafeString.h */,
+				A884BD442014928500732E15 /* NSObject+SafeString.m */,
+				A884BD49201492F900732E15 /* lt_ex.h */,
+				A884BD4E2014944500732E15 /* UIColor+Hex.h */,
+				A884BD4F2014944500732E15 /* UIColor+Hex.m */,
+			);
+			path = lt_ex;
+			sourceTree = "<group>";
+		};
+		A884BD472014929100732E15 /* lt_macros */ = {
+			isa = PBXGroup;
+			children = (
+				A884BD482014929100732E15 /* lt_macros.h */,
+				A884BD522014957900732E15 /* lt_constants.h */,
+			);
+			name = lt_macros;
+			path = BaseLibrary/base/lt_macros;
+			sourceTree = SOURCE_ROOT;
 		};
 		ADC9503331F88A4F6106449E /* Pods */ = {
 			isa = PBXGroup;
@@ -342,10 +342,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A877D8621F77990C002E6BA4 /* AppDelegate.m in Sources */,
-				A8190EF41FA0923600BA2C49 /* NSObject+SafeString.m in Sources */,
-				A8190EF11FA0917600BA2C49 /* NSDictionary+Ex.m in Sources */,
+				A884BD502014944500732E15 /* UIColor+Hex.m in Sources */,
 				A877D8951F77AEEF002E6BA4 /* testViewController.m in Sources */,
+				A884BD462014928500732E15 /* NSObject+SafeString.m in Sources */,
 				A877D8611F7798B6002E6BA4 /* main.m in Sources */,
+				A884BD452014928500732E15 /* NSDictionary+Ex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +509,7 @@
 				DEVELOPMENT_TEAM = 7L8859JS3T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseLibrary/main/PrefixHeader.pch";
-				INFOPLIST_FILE = BaseLibrary/Info.plist;
+				INFOPLIST_FILE = BaseLibrary/other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alwaycoding.www.BaseLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -525,7 +526,7 @@
 				DEVELOPMENT_TEAM = 7L8859JS3T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseLibrary/main/PrefixHeader.pch";
-				INFOPLIST_FILE = BaseLibrary/Info.plist;
+				INFOPLIST_FILE = BaseLibrary/other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alwaycoding.www.BaseLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";

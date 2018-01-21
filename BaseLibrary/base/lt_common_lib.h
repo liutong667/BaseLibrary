@@ -10,6 +10,7 @@
 #define lt_common_lib_h
 
 #import "lt_macros.h"
-#import "lt_ui.h"
+#import "lt_ex.h"
+#import "lt_constants.h"
 
 #endif /* lt_common_lib_h */

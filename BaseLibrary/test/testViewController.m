@@ -7,6 +7,7 @@
 //
 
 #import "testViewController.h"
+#import "NSDictionary+Ex.h"
 
 @interface testViewController ()
 
@@ -17,21 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self test];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)test {
+    NSDictionary *dic = @{@"bool":@"1"};
+    BOOL b = [dic boolForKey:@"bool"];
+    NSLog(@"%zd", b);
+
+    NSString * jsonStr = @"{\"price\":71.49}";
+    NSData *jsonData = [jsonStr dataUsingEncoding:NSUTF8StringEncoding];
+    NSDictionary *json = [NSMutableDictionary dictionaryWithDictionary:[NSJSONSerialization JSONObjectWithData:jsonData options:0 error:nil]];
+    NSLog(@"处理之前：%@", [json[@"price"] stringValue]);
+    
+    double cash = [json doubleForKey:@"cash"];
+    NSLog(@"%.2f",cash);
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end
